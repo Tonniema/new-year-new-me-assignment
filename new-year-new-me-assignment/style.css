@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.header{
+    max-width: 100%;
+    height: 100vh;
+    background-image: url(images/banner1.png);
+    
+}
+.nav-bar-containers{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 700px;
+    justify-content: space-around;
+    
+    color: black;
+}
+.items{
+    display: flex;
+    list-style: none;
+}
+.item{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 5px;
+    margin-right: 10px;
+}
+/* header banner styles */
+
+.banner-details{
+    font-family: 'Work Sans', sans-serif;
+    text-align: right;
+
+}
+.banner-title{ 
+    font-weight: 600;
+    font-size: 55px;
+    padding: 150px 230px 0px 850px;
+      
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    padding: 10px 230px 0px 850px;
+    text-align: right
+}
+.btn-banner{
+    font-weight: 400;
+    font-size: 12px;
+    color: azure;
+    background-color: #FF5959;
+    margin: 30px 145px 170px 1155px;
+    padding: 10px 18px;
+    border: none;
+    
+    
+}
+
+/* overview-previous-year styles */
+.failure-activities{
+    display: flex;
+    align-items: center;
+    
+
+}
+.failure-activities-img{
+   width: 250px;
+   height: 300px;
+   margin: 100px 0 0 206px;
+}
+
+.failure-activities-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    padding: 400px 230px 0 450px;
+    text-align: left;
+}
+.failure-activities-details{
+    font-weight: 300;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 910px;
+    padding-right: 230px;
+    text-align: left;
+
+}
+.failure-activities-list{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    padding: 10px 230px 0 910px;
+    list-style-type:disc;
+
+}
+ul.list{
+    list-style-type: none;
+}
+/* my plans styles */
+
+.my-plan-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+    padding: 250px;
+    padding-bottom: 0;
+
+}
+.my-plans-subtitle{
+    font-weight: 700;
+    font-size: 20px;
+    color: #151414;
+    padding-top: 10px;
+}
+.my-plans-details{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 229px 0 300px;
+    text-align: center;
+      
+}
+.my-plans-description{
+    font-weight: 500;
+    font-size: 18px;
+    color: #737272;
+    padding-top: 10px;
+}
+/* call now button styles */
+.call-now-image{
+    padding: 140px 230px 0 200px; url(images/watch.png);
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+}
+
+
+.call-now-title{
+    
+    height: 400px;
+    
+    margin-top: 130px;
+    margin-left: 230px;
+    margin-right: 230px;
+    background:  url(images/watch.png),url(images/gradient3.png);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: left;
+    padding-left: 160px;
+
+}
+.title{
+    
+    color: white;
+    
+    background-position: 
+   font-weight: 400;
+   font-size: 40px;
+   padding-top: 100px;
+   padding-right: 400px;
+   padding-left: 00px;
+   padding-bottom: 40px;
+   display: flex;
+    justify-content: center;
+
+
+}
+.btn-call-now{
+    padding: 13px ;
+    border: none;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0 200px 200px 10px;
+   display: flex;
+   justify-content: center;
+   color: #F15B22;
+   border-radius: 7px;
+   text-align: center;
+   
+
+
+   
+}
+
+   
+
+/* footer form container */
+.footer{
+    display: flex;
+    background-color: #151414;
+    margin: 50px;
+    padding: 100px;
+
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+.footer-detail{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    padding-right: 750px;
+}
+.footer-info{
+    color: #FFFFFF;
+    
+}
+.footer-form-title{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 30px;
+    m
+}
+.form-detail{
+    margin-bottom: 20px;
+}
+
+    
+    
+.email{
+    padding-top: 5px;
+    padding-bottom: 20px;
+
+}
+.phone{
+    padding-top: 5px;
+    padding-bottom: 20px;
+
+}
+.btn-sub{
+    
+    color: #F15B22;
+    padding: 15px;
+    border-radius: 6px;
+}
+
